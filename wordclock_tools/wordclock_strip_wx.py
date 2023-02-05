@@ -67,7 +67,7 @@ class WxStrip():
                 y = 0
                 vbox = wx.BoxSizer(wx.VERTICAL)
                 font = wx.SystemSettings.GetFont(wx.SYS_SYSTEM_FONT)
-                font.SetPointSize(32)
+                font.SetPointSize(28)
                 gs = wx.GridSizer(height + 1, width, 5, 5)
                 vbox.Add(gs, proportion=1, flag=wx.EXPAND)
                 for i in str(chars):                     
